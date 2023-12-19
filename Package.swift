@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "MapboxGeocoder",
     platforms: [
-        .macOS(.v10_14), .iOS(.v12), .watchOS(.v5), .tvOS(.v12)
+        .macOS(.v10_14), .iOS(.v12), .watchOS(.v5), .tvOS(.v12), .custom("xros", versionString: "1.0")
     ],
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
